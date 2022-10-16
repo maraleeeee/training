@@ -1,9 +1,6 @@
-package com.example.training.controller;
+package com.example.training.Data;
 
 
-import com.example.training.Data.Student;
-import lombok.Data;
-import org.springframework.context.annotation.Profile;
 
 public interface StudentDTO {
 
