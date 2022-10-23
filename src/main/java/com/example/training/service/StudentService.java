@@ -76,5 +76,6 @@ class searchInProfileB implements StudentService {
             sl.add(a);
         }
         return ResponseEntity.of(Optional.of(sl.stream().map(StudentDTO_B::new).toList()));
+
     }
 }
