@@ -1,10 +1,12 @@
 package com.example.training.Data;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import org.springframework.context.annotation.Profile;
 
 @Profile(value = "profile_B")
 @Data
+@AllArgsConstructor
 public class StudentDTO_B implements StudentDTO {
     private String sId;
     private String name;

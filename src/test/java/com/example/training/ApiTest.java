@@ -20,9 +20,13 @@ public class ApiTest extends AbstractMockMvn {
         super.setUp();
     }
 
+
+    public void getStudentsListUnit(){
+
+    }
     @Test
     public void getStudentsList() throws Exception {
-        String uri = "/student/searchl";
+        String uri = "/student/search";
         MvcResult mvcResult = mvc.perform(MockMvcRequestBuilders.get(uri)
                 .accept(MediaType.APPLICATION_JSON_VALUE)).andReturn();
 
